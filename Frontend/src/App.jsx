@@ -1,0 +1,15 @@
+// src/App.jsx
+
+import React from 'react';
+import ContactForm from './ContactForm';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <ContactForm />
+    </div>
+  );
+}
+
+export default App;
